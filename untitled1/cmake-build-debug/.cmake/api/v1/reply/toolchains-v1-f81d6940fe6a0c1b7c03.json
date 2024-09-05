@@ -1,0 +1,131 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0/include",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/include",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/mingw32/lib",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/Users/Amirr/Main Server/C++ Projects/MinGW/bin/gcc.exe",
+				"version" : "5.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0/include/c++",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0/include/c++/mingw32",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0/include/c++/backward",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0/include",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/include",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/mingw32/lib",
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"C:/Users/Amirr/Main Server/C++ Projects/MinGW/lib/gcc/mingw32/5.1.0/libstdc++.a",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/Users/Amirr/Main Server/C++ Projects/MinGW/bin/c++.exe",
+				"version" : "5.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/Amirr/Main Server/C++ Projects/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
